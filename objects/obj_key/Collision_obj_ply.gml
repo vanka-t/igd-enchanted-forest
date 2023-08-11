@@ -7,7 +7,7 @@ instance_deactivate_layer("key")
 global.key = false
 global.gotKey = true
 
-
+//hellp
 	
 
 
