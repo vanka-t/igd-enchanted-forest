@@ -4,23 +4,29 @@
 
 
 // Inherit the parent event
-
- show_debug_message(room)
-if room == rm_final {
+if room == rm_tarot {
 	if keyboard_check_pressed(vk_space){
 			if (myTextBox == noone ){
 		myTextBox =  instance_create_layer(x,y,"text", obj_textBox)
 		myTextBox.text = myText
 		myTextBox.creator = self
 		myTextBox.name = myName
+		
+		}
+		
+		if myTextBox.count > 0 {
+			instance_destroy(self)
 		}
 	}
 	
 } else {
 	if (myTextBox != noone){
+		
 		instance_destroy(myTextBox)
+		
+		
 		myTextBox = noone
+		instance_destroy(self)
 	}
 	
-}
-
+} 

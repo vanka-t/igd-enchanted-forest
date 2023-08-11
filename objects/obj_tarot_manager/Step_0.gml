@@ -13,8 +13,23 @@ if audio_is_playing(snd_theme){
 switch(state)
 {
 	case state_intro:
+	if !instance_exists(obj_tarot_fairy){
+			instance_create_layer(room_width/2, room_height/2, "test", obj_tarot_fairy)
+			show_debug_message( global.finished)
+			
+		}
+		if global.finished = true {
+				instance_destroy(obj_tarot_fairy)
+				state = state_deal
+			}
+	break;
+	
 	
 	case state_deal:
+	instance_activate_layer("cards")
+	
+
+
 		//wait a few frames between moving cards
 		if(move_timer == 0)
 		{

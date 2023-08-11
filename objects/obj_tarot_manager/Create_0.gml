@@ -4,15 +4,15 @@
 
 y = room_height/2
 //game states
-state_deal = 0;
-state_match = 1;
-state_compare = 2;
-state_explain = 3
+state_intro = 0;
+state_deal = 1;
+state_match = 2;
+state_compare = 3;
 state_clean = 4;
 state_shuffle = 5;
 
 //set the initial state of the game
-state = state_deal;
+state = state_intro;
 
 //position setup
 hand_x_offset = 100;
@@ -38,11 +38,16 @@ current_card = 0;
 player_score = 0
 comp_score = 0
 
+//big_card = instance_create_layer(x, y, "results", obj_big_card);
+//big_card.face_index = [spr_sun, spr_fool, spr_lovers];
+//instance_deactivate_layer("results")
+
+
 //create initial deck, looping for however many cards we can in our deck
 for(var _i = 0; _i < num_cards; _i++)
 {
 	//make a new card
-	var _new_card = instance_create_layer(x, y, "Instances", obj_card);
+	var _new_card = instance_create_layer(x, y, "cards", obj_card);
 	
 	//all of these variables are declared here in the manager
 	//BUT! they are instance variables of whatever card we just made
@@ -84,10 +89,4 @@ for(var _i = 0; _i < num_cards; _i++)
 	deck[| _i].target_y  = deck[| _i].y; //starting post for deck on left
 	
 }
-
-//big_card = instance_create_layer(x, y, "results", obj_big_card);
-//big_card.face_index = [spr_sun, spr_fool, spr_lovers];
-//instance_deactivate_layer("results")
-
-
-
+instance_deactivate_layer("cards")

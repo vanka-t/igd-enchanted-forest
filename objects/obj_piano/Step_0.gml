@@ -48,7 +48,8 @@ if keyboard_check_pressed(ord("K")) {
 
 if count == 10 {
 	global.score = true
-	room_goto(rm_main)
+	obj_pianoFairy.convo_part +=1
+	//room_goto(rm_main)
 
 	count = 0
 }

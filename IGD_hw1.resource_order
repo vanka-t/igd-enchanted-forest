@@ -34,6 +34,7 @@
     {"name":"obj_tarotDoor","order":2,"path":"objects/obj_tarotDoor/obj_tarotDoor.yy",},
     {"name":"obj_card","order":2,"path":"objects/obj_card/obj_card.yy",},
     {"name":"obj_finalBoss","order":3,"path":"objects/obj_finalBoss/obj_finalBoss.yy",},
+    {"name":"obj_npc3","order":5,"path":"objects/obj_npc3/obj_npc3.yy",},
     {"name":"spr_npc2","order":1,"path":"sprites/spr_npc2/spr_npc2.yy",},
     {"name":"spr_piano_bg","order":16,"path":"sprites/spr_piano_bg/spr_piano_bg.yy",},
     {"name":"spr_bush","order":2,"path":"sprites/spr_bush/spr_bush.yy",},

@@ -81,6 +81,7 @@
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
     {"id":{"name":"obj_finalBoss","path":"objects/obj_finalBoss/obj_finalBoss.yy",},},
+    {"id":{"name":"obj_npc3","path":"objects/obj_npc3/obj_npc3.yy",},},
     {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},},
     {"id":{"name":"spr_piano_bg","path":"sprites/spr_piano_bg/spr_piano_bg.yy",},},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},},

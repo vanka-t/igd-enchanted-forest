@@ -6,6 +6,7 @@
 // Inherit the parent event
 event_inherited();
 
+global.finished = false //check if were done w dialogue -->needed fot state machine
 myName = "Tarot Fairy"
 
 myText[0] = "I haven't seen you before"
