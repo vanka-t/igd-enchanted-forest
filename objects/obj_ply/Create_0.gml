@@ -31,7 +31,8 @@ Down_pressed = false
 Down_released = false
 Down_hold = false
 
-
+ //check how many times player has entered final room. enemy's chat depends on it
+global.final_room_entered = 0
 
 
 

@@ -2,4 +2,5 @@
 // You can write your code in this editor
 
 
-room_goto(rm_tarot)
+
+fadeInfadeOut(rm_tarot,0.05)

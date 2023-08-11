@@ -12,6 +12,8 @@ if audio_is_playing(snd_theme){
 //ad beginning state w textbox here?
 switch(state)
 {
+	case state_intro:
+	
 	case state_deal:
 		//wait a few frames between moving cards
 		if(move_timer == 0)
@@ -266,9 +268,6 @@ switch(state)
 			
 			
 		}
-		//alarm[0] = room_speed *0.05
-		
-		
 		
 		break;
 	default:
