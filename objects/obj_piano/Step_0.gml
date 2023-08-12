@@ -49,9 +49,11 @@ if keyboard_check_pressed(ord("K")) {
 if count == 10 {
 	global.score = true
 	obj_pianoFairy.convo_part +=1
+	count = 0
+	instance_destroy(self)//deactivate once playing song is over
 	//room_goto(rm_main)
 
-	count = 0
+	
 }
 
 

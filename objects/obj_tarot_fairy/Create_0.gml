@@ -9,6 +9,8 @@ event_inherited();
 global.finished = false //check if were done w dialogue -->needed fot state machine
 myName = "Tarot Fairy"
 
+convo_part = 0
+
 //counts how many messages have been sent before activating cards
 message_count = 0
 

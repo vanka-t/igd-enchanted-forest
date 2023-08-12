@@ -13,9 +13,6 @@ if place_meeting(x,y,obj_ply) {
 		}
 	}
 	
-	
-	
-	
 } else {
 	if (myTextBox != noone){
 		instance_destroy(myTextBox)
