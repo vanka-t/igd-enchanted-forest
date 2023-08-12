@@ -5,6 +5,7 @@ if audio_is_playing(snd_theme){
 	audio_pause_sound(snd_theme)
 }
 
+show_debug_message("Instance count: " + instance_count)
 //if !audio_is_playing(snd_bg){
 //	audio_play_sound(snd_bg,0,false)
 //}
@@ -12,21 +13,21 @@ if audio_is_playing(snd_theme){
 //ad beginning state w textbox here?
 switch(state)
 {
-	case state_intro:
-	if !instance_exists(obj_tarot_fairy){
-			instance_create_layer(room_width/2, room_height/2, "test", obj_tarot_fairy)
-			show_debug_message( global.finished)
+//	case state_intro:
+//	if !instance_exists(obj_tarot_fairy){
+//			instance_create_layer(room_width/2, room_height/2, "test", obj_tarot_fairy)
+//			show_debug_message( global.finished)
 			
-		}
-		if global.finished = true {
-				instance_destroy(obj_tarot_fairy)
-				state = state_deal
-			}
-	break;
+//		}
+//		if global.finished = true {
+//				instance_destroy(obj_tarot_fairy)
+//				state = state_deal
+//			}
+//	break;
 	
 	
 	case state_deal:
-	instance_activate_layer("cards")
+	//instance_activate_layer("cards")
 	
 
 
@@ -279,7 +280,8 @@ switch(state)
 		{
 			
 			instance_destroy(obj_results)
-			room_goto(rm_main)
+			obj_tarot_fairy.convo_part+=1
+			//room_goto(rm_main)
 			
 			
 		}

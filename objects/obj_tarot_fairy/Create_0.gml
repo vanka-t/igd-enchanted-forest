@@ -9,8 +9,8 @@ event_inherited();
 global.finished = false //check if were done w dialogue -->needed fot state machine
 myName = "Tarot Fairy"
 
-myText[0] = "I haven't seen you before"
-myText[1] = "Would you like a tarot reading? Surely you wont leave the forest without one?"
-myText[2] = "only the piano fairy knows where that is tho"
+//counts how many messages have been sent before activating cards
+message_count = 0
 
-
+// depends on whether the player's luck on the card game is good or not
+good_reading = false 

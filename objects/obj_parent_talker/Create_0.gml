@@ -7,3 +7,4 @@ myText[0] = ""
 
 
 
+convo_part = 0

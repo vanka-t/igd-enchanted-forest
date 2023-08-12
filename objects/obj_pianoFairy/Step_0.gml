@@ -21,14 +21,14 @@ myText[3] = "use keys A  S  D   F   G   H   I   J   K"
 
 // Inherit the parent event
 if room == rm_piano {
-	if convo_part >0 {
+	if convo_part >0 { // automatically start talking once piano is played
 			if (myTextBox == noone ){
 		myTextBox =  instance_create_layer(x,y,"text", obj_textBox)
 		myTextBox.text = myText
 		myTextBox.creator = self
 		myTextBox.name = myName
 		}
-	}else if keyboard_check_pressed(vk_space){
+	}else if keyboard_check_pressed(vk_space){ 
 			if (myTextBox == noone ){
 		myTextBox =  instance_create_layer(x,y,"text", obj_textBox)
 		myTextBox.text = myText

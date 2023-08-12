@@ -12,13 +12,13 @@ state_clean = 4;
 state_shuffle = 5;
 
 //set the initial state of the game
-state = state_intro;
+state = state_deal;
 
 //position setup
 hand_x_offset = 100;
 
 //card setup vars
-num_cards = 12;
+num_cards = 6;
 
 //lists for different card states
 deck = ds_list_create();
@@ -89,4 +89,4 @@ for(var _i = 0; _i < num_cards; _i++)
 	deck[| _i].target_y  = deck[| _i].y; //starting post for deck on left
 	
 }
-instance_deactivate_layer("cards")
+//instance_deactivate_layer("cards")
