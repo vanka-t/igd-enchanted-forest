@@ -5,7 +5,6 @@ if audio_is_playing(snd_theme){
 	audio_pause_sound(snd_theme)
 }
 
-show_debug_message("Instance count: " + instance_count)
 //if !audio_is_playing(snd_bg){
 //	audio_play_sound(snd_bg,0,false)
 //}

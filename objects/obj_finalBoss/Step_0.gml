@@ -24,3 +24,11 @@ if room == rm_final {
 	
 }
 
+if !have_cake {
+	if global.final_room_entered > 0{
+		myText[0] = "What the hell do you want? Go away"
+	} else {
+		myText[0] = "You again?? GO. AWAY."
+	}
+	
+}
