@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-y = room_height/2
+y = room_height *0.2
 //game states
 state_intro = 0;
 state_deal = 1;
@@ -18,7 +18,7 @@ state = state_deal;
 hand_x_offset = 100;
 
 //card setup vars
-num_cards = 6;
+num_cards = 18;
 
 //lists for different card states
 deck = ds_list_create();
@@ -38,9 +38,6 @@ current_card = 0;
 player_score = 0
 comp_score = 0
 
-//big_card = instance_create_layer(x, y, "results", obj_big_card);
-//big_card.face_index = [spr_sun, spr_fool, spr_lovers];
-//instance_deactivate_layer("results")
 
 
 //create initial deck, looping for however many cards we can in our deck
@@ -89,4 +86,3 @@ for(var _i = 0; _i < num_cards; _i++)
 	deck[| _i].target_y  = deck[| _i].y; //starting post for deck on left
 	
 }
-//instance_deactivate_layer("cards")

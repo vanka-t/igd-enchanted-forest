@@ -53,7 +53,7 @@ if room == rm_tarot {
 }
 
 
-if message_count > 4 {
+if message_count > 5 {
 	if !instance_exists(obj_tarot_manager){
 		instance_create_layer(room_width/2,room_height/2, "cards", obj_tarot_manager)
 	}

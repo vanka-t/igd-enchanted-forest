@@ -16,6 +16,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"characters","folderPath":"folders/Objects/characters.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"doors","folderPath":"folders/Objects/doors.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tarot_room","folderPath":"folders/Objects/tarot_room.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
@@ -34,7 +35,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tarot","folderPath":"folders/Sprites/tarot.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"characters","folderPath":"folders/Objects/characters.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"ARCADECLASSIC.TTF","CopyToMask":-1,"filePath":"datafiles",},

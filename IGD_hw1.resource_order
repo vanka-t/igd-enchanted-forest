@@ -1,9 +1,9 @@
 {
   "FolderOrderSettings": [
+    {"name":"characters","order":20,"path":"folders/Objects/characters.yy",},
     {"name":"tarot_room","order":18,"path":"folders/Objects/tarot_room.yy",},
     {"name":"tarot","order":4,"path":"folders/Sounds/tarot.yy",},
     {"name":"tarot","order":17,"path":"folders/Sprites/tarot.yy",},
-    {"name":"characters","order":20,"path":"folders/Objects/characters.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_message1","order":7,"path":"sprites/spr_message1/spr_message1.yy",},
