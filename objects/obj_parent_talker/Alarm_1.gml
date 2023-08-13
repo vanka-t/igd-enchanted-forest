@@ -8,7 +8,7 @@ if convo_part > 0 {
 	room_goto(rm_main)
 }
 
-if instance_exists(obj_finalBoss) && !obj_finalBoss.have_cake{
+if instance_exists(obj_finalBoss) && !obj_manager.have_cake{
 	room_goto(rm_main)
 }
 

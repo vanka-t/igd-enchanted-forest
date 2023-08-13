@@ -25,15 +25,17 @@ if room = rm_main {
 
 if room = rm_piano {
 	rm_piano_entered = true
+	piano_complete = true
 	audio_pause_sound(snd_theme)
 } 
 
 if room = rm_tarot {
 	rm_tarot_entered = true
+	tarot_complete = false
 	audio_pause_sound(snd_theme)
 } 
 
-if rm_piano_entered && rm_tarot_entered{
+if tarot_complete && piano_complete{
 	global.gotKey = true
 }
 
