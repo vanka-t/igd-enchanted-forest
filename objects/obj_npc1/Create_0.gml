@@ -5,7 +5,7 @@ event_inherited()
 myName = "????"
 
 myText[0] = "You must be new here"
-myText[1] = "if youd like to escape, you must find the key"
-myText[2] = "only the piano fairy knows where that is tho"
+myText[1] = "if youd like to escape, you must meet the prince of the forest"
+myText[2] = "he's lounging in his pretty garden"
 
 

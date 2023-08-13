@@ -20,15 +20,26 @@ if room = rm_main {
 		audio_resume_sound(snd_theme)
 		
 	}
-	if global.score {
-		instance_create_layer(611,642,"key", obj_key)
-	}
+
 }
 
 if room = rm_piano {
-	rm1_entered = true
+	rm_piano_entered = true
 	audio_pause_sound(snd_theme)
 } 
 
+if room = rm_tarot {
+	rm_tarot_entered = true
+	audio_pause_sound(snd_theme)
+} 
 
+if rm_piano_entered && rm_tarot_entered{
+	global.gotKey = true
+}
 
+/*
+if rm_piano_entered {
+	show_debug_message("piano entered!")
+} else {
+	show_debug_message("piano no :(")
+}

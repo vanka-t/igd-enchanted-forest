@@ -4,7 +4,8 @@
 myTextBox = noone
 myName = "????"
 
-myText[0] = "hiiii omg"
-myText[1] = "exit's in the back :)"
+myText[0] = "lol, are you trying to meet the prince of this forest?"
+myText[1] = "first you must get the approval of the piano and tarot fairy"
+myText[2] = "lol, are you trying to meet the prince of this forest?"
 
 

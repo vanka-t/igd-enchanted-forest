@@ -5,6 +5,7 @@ hspd = ((right - left) *spd);
 vspd = ((down-up)*spd);
 
 
+
 	if hspd !=0 { 
 	if !collision_point(x+hspd,y,obj_collision,true,true){
 		if !collision_point(x+hspd,y,obj_door,true,true){

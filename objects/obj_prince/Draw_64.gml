@@ -3,10 +3,13 @@
 
 
 
+
+
 // Inherit the parent event
 event_inherited();
-depth = -1000
-myName = "ENCHANETD FOREST GUARDIAN"
 
-
-have_cake = false
+if myText == 0 {
+	draw_sprite(spr_lovers,0, x,y)
+} else {
+	sprite_delete(spr_lovers)
+}

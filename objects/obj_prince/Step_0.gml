@@ -3,10 +3,8 @@
 
 
 
+
+
 // Inherit the parent event
 event_inherited();
-depth = -1000
-myName = "ENCHANETD FOREST GUARDIAN"
 
-
-have_cake = false
