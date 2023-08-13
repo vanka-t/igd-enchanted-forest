@@ -16,7 +16,6 @@ if keyboard_check_released(ord(key)){
 }
 
 
-
 //visual effect so that it looks like keys are being pressed!
 
 if key_pressed {
