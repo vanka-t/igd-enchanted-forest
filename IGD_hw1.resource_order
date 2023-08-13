@@ -4,6 +4,7 @@
     {"name":"tarot_room","order":18,"path":"folders/Objects/tarot_room.yy",},
     {"name":"tarot","order":4,"path":"folders/Sounds/tarot.yy",},
     {"name":"tarot","order":17,"path":"folders/Sprites/tarot.yy",},
+    {"name":"piano_room","order":24,"path":"folders/Objects/piano_room.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_message1","order":7,"path":"sprites/spr_message1/spr_message1.yy",},
@@ -18,6 +19,7 @@
     {"name":"spr_rock","order":1,"path":"sprites/spr_rock/spr_rock.yy",},
     {"name":"spr_tiles","order":13,"path":"sprites/spr_tiles/spr_tiles.yy",},
     {"name":"obj_message2","order":9,"path":"objects/obj_message2/obj_message2.yy",},
+    {"name":"obj_A","order":1,"path":"objects/obj_A/obj_A.yy",},
     {"name":"obj_finalDoor","order":3,"path":"objects/obj_finalDoor/obj_finalDoor.yy",},
     {"name":"snd_K","order":7,"path":"sounds/snd_K/snd_K.yy",},
     {"name":"spr_fool","order":5,"path":"sprites/spr_fool/spr_fool.yy",},
