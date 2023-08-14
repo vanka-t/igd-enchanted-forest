@@ -3,8 +3,13 @@
 text = "heheeeeE ";
 page = 0
 
-xBuffer = 5
-yBuffer = 5
+x_pos = 0
+y_pos = y
+
+
+
+xBuffer = 10
+yBuffer = 10
 boxWidth = sprite_get_width(spr_textBox)
 boxHeight = sprite_get_height(spr_textBox)
 strHeight = string_height(text)

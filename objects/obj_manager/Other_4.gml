@@ -40,7 +40,7 @@ if room = rm_main and rm_tarot_entered {
 
 if room = rm_main and rm_final_entered {
 	obj_ply.x = obj_finalDoor.x 
-	obj_ply.y = obj_finalDoor.y  + 100
+	obj_ply.y = obj_finalDoor.y  + 150
 	rm_final_entered = false
 }
 

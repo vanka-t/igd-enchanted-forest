@@ -126,11 +126,3 @@ if Down_hold {
 //	}
 //}
 
-
-if !collision_point(x,y+vspd,obj_npc2,true,true){
-	instance_deactivate_object(obj_message2)
-} else {
-	if keyboard_check_pressed(vk_space){
-		instance_activate_object(obj_message2)
-	}
-}
