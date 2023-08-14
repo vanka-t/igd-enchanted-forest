@@ -3,7 +3,7 @@
 
 
 if room = rm_main and rm_piano_entered {
-	
+	piano_complete = true
 	//have the player starting position be where they left
 	obj_ply.x = obj_pianoDoor.x 
 	obj_ply.y = obj_pianoDoor.y  + 100
@@ -22,6 +22,9 @@ if room = rm_main and rm_piano_entered {
 }
 
 if room = rm_main and rm_tarot_entered {
+	audio_pause_sound(snd_tarot_room)
+		tarot_complete = true
+
 	//have the player starting position be where they left
 	obj_ply.x = obj_tarotDoor.x 
 	obj_ply.y = obj_tarotDoor.y  + 100

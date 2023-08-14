@@ -66,6 +66,7 @@
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
     {"id":{"name":"fadeInfadeOut","path":"scripts/fadeInfadeOut/fadeInfadeOut.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
+    {"id":{"name":"spr_tarot_bg","path":"sprites/spr_tarot_bg/spr_tarot_bg.yy",},},
     {"id":{"name":"spr_paper","path":"sprites/spr_paper/spr_paper.yy",},},
     {"id":{"name":"obj_message2","path":"objects/obj_message2/obj_message2.yy",},},
     {"id":{"name":"obj_A","path":"objects/obj_A/obj_A.yy",},},

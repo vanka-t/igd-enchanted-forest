@@ -14,6 +14,6 @@ have_cake = false
  
  //check how many times player has entered final room. enemy's chat depends on it
 global.final_room_entered = 0
-
+global.gotKey = false
 
 

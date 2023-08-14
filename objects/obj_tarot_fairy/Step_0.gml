@@ -11,14 +11,14 @@ myText[2] = "allow me to look deep inside your soul"
 
 
 } else if convo_part> 0 {
-	if good_reading { //picked good cards
+	//if good_reading { //picked good cards
 		myText[0] = "Based on your combinations, it seems thatyou have been blessed with good fate"
 		myText[1] = "The cards never lie"
 		myText[2] = "You have my approval"
-	} else {
-		myText[0] = "My, my... what a tragic ending you will face"
-		myText[1] = "Staying in our world will do you no good."
-		myText[2] = "You have my approval, leave as soon as possible!"
+	//} else {
+	//	myText[0] = "My, my... what a tragic ending you will face"
+	//	myText[1] = "Staying in our world will do you no good."
+	//	myText[2] = "You have my approval, leave as soon as possible!"
 		
 	}
 
@@ -55,7 +55,7 @@ if room == rm_tarot {
 
 if message_count > 5 {
 	if !instance_exists(obj_tarot_manager){
-		instance_create_layer(room_width/2,room_height/2, "cards", obj_tarot_manager)
+		instance_create_layer(room_width/2,room_height- 200, "cards", obj_tarot_manager)
 	}
 	message_count = 0
 }

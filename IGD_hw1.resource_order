@@ -21,6 +21,7 @@
     {"name":"obj_pianoDoor","order":1,"path":"objects/obj_pianoDoor/obj_pianoDoor.yy",},
     {"name":"spr_rock","order":1,"path":"sprites/spr_rock/spr_rock.yy",},
     {"name":"spr_tiles","order":1,"path":"sprites/spr_tiles/spr_tiles.yy",},
+    {"name":"spr_tarot_bg","order":21,"path":"sprites/spr_tarot_bg/spr_tarot_bg.yy",},
     {"name":"obj_message2","order":9,"path":"objects/obj_message2/obj_message2.yy",},
     {"name":"obj_A","order":1,"path":"objects/obj_A/obj_A.yy",},
     {"name":"spr_H","order":5,"path":"sprites/spr_H/spr_H.yy",},

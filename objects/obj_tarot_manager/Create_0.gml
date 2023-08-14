@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-y = room_height *0.2
+x = room_width/2 - 70
+y = room_height -300
 //game states
 state_intro = 0;
 state_deal = 1;

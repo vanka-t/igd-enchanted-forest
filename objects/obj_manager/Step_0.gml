@@ -14,9 +14,7 @@ if room = rm_main {
 
 	if !audio_is_playing(snd_theme){
 		audio_play_sound(snd_theme, 10, true)
-	}
-	
-	if audio_is_paused(snd_theme){
+	} else if audio_is_paused(snd_theme){
 		audio_resume_sound(snd_theme)
 		
 	}
@@ -28,13 +26,12 @@ if room = rm_main {
 
 if room = rm_piano {
 	rm_piano_entered = true
-	piano_complete = true
+	
 	audio_pause_sound(snd_theme)
 } 
 
 if room = rm_tarot {
 	rm_tarot_entered = true
-	tarot_complete = false
 	
 	audio_pause_sound(snd_theme)
 	if !audio_is_playing(snd_tarot_room){
@@ -43,6 +40,7 @@ if room = rm_tarot {
 } 
 
 if tarot_complete && piano_complete{
+//	instance_destroy(obj_door)
 	global.gotKey = true
 }
 

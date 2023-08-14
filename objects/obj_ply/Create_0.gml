@@ -14,7 +14,7 @@ vspd = 0
 image_speed=1
 
 
-global.gotKey = false
+
 L_pressed = false
 L_released = false
 L_hold = false
