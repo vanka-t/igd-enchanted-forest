@@ -9,4 +9,4 @@ depth = -1000
 myName = "ENCHANETD FOREST GUARDIAN"
 
 
-
+message_count = 0

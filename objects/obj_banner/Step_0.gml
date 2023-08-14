@@ -8,7 +8,7 @@ var cam_y = camera_get_view_y(view_camera[1])
 
 
 
-x = cam_x + 750
+x = cam_x + 464
 y = cam_y+ 50
 
 

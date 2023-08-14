@@ -46,7 +46,7 @@ if keyboard_check_pressed(ord("K")) {
 	count+= .5
 }
 
-if count == 10 {
+if count == count_max {
 	global.score = true
 	obj_pianoFairy.convo_part +=1
 	

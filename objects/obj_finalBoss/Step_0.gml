@@ -34,5 +34,18 @@ if !obj_manager.have_cake {
 	}
 	
 } else {
+	
 	myText[0] = "Is that cake? omg :3"
+	myText[1] = "I haven't had one of these in a thousand years!"
+	myText[2] = "Fine, fine. Off you go back to your own world, mortal!"
+	if keyboard_check_pressed(vk_space){
+		message_count +=1
+	}
+	
+}
+
+
+
+if message_count == 5 {
+	fadeInfadeOut(rm_win, 0.05)
 }
