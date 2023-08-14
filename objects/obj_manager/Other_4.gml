@@ -16,9 +16,6 @@ if room = rm_main and rm_piano_entered {
 	alarm[1] = room_speed *3
 	rm_piano_entered = false
 	
-} else {
-	
-	instance_deactivate_object(obj_banner)
 }
 
 if room = rm_main and rm_tarot_entered {
