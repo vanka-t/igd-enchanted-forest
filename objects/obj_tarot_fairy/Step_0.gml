@@ -12,9 +12,9 @@ myText[2] = "allow me to look deep inside your soul"
 
 } else if convo_part> 0 {
 	//if good_reading { //picked good cards
-		myText[0] = "Based on your combinations, it seems thatyou have been blessed with good fate"
+		myText[0] = "Based on your combinations, it seems that you have been blessed with good fate"
 		myText[1] = "The cards never lie"
-		myText[2] = "You have my approval"
+		myText[2] = "You have my approval, leave this forest!"
 	//} else {
 	//	myText[0] = "My, my... what a tragic ending you will face"
 	//	myText[1] = "Staying in our world will do you no good."
@@ -22,7 +22,7 @@ myText[2] = "allow me to look deep inside your soul"
 		
 	}
 
-}
+//}
 
 // Inherit the parent event
 if room == rm_tarot {

@@ -6,7 +6,7 @@ if room = rm_main and rm_piano_entered {
 	piano_complete = true
 	//have the player starting position be where they left
 	obj_ply.x = obj_pianoDoor.x 
-	obj_ply.y = obj_pianoDoor.y  + 100
+	obj_ply.y = obj_pianoDoor.y  + 150
 	
 	//show banner that player completed challenge
 	instance_activate_object(obj_banner)
@@ -27,7 +27,7 @@ if room = rm_main and rm_tarot_entered {
 
 	//have the player starting position be where they left
 	obj_ply.x = obj_tarotDoor.x 
-	obj_ply.y = obj_tarotDoor.y  + 100
+	obj_ply.y = obj_tarotDoor.y  + 150
 	
 	//show banner that player completed challenge
 	instance_activate_object(obj_banner)

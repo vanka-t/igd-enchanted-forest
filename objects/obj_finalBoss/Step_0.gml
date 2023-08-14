@@ -46,6 +46,6 @@ if !obj_manager.have_cake {
 
 
 
-if message_count == 5 {
+if message_count == 4 {
 	fadeInfadeOut(rm_win, 0.05)
 }

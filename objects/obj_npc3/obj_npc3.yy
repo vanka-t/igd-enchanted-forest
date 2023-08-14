@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
+    "name": "spr_iriq",
+    "path": "sprites/spr_iriq/spr_iriq.yy",
   },
   "spriteMaskId": null,
   "visible": true,
