@@ -23,6 +23,9 @@ if room = rm_main {
 
 }
 
+
+
+
 if room = rm_piano {
 	rm_piano_entered = true
 	piano_complete = true
@@ -32,13 +35,22 @@ if room = rm_piano {
 if room = rm_tarot {
 	rm_tarot_entered = true
 	tarot_complete = false
+	
 	audio_pause_sound(snd_theme)
+	if !audio_is_playing(snd_tarot_room){
+		audio_play_sound(snd_tarot_room, 10, true)
+	}
 } 
 
 if tarot_complete && piano_complete{
 	global.gotKey = true
 }
 
+
+if room = rm_final {
+	rm_final_entered =true
+	audio_pause_sound(snd_theme)
+}
 /*
 if rm_piano_entered {
 	show_debug_message("piano entered!")

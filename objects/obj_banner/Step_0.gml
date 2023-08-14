@@ -8,8 +8,8 @@ var cam_y = camera_get_view_y(view_camera[1])
 
 
 
-x = obj_ply.x //cam_x + 750
-y =  obj_ply.x //cam_y- 100
+x = cam_x + 750
+y = cam_y+ 50
 
 
 

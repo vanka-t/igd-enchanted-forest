@@ -5,7 +5,7 @@ depth = -1000
 
 
 //player winning
-if (obj_tarot_manager.player_face_up[| 0].face_index == 1 and  obj_tarot_manager.player_face_up[| 1].face_index == 0 ){
+if (obj_tarot_manager.player_face_up[| 0].face_index ==                                                                        1 and  obj_tarot_manager.player_face_up[| 1].face_index == 0 ){
 	sprite_index = spr_sun
 	obj_tarot_manager.player_score +=1
 }else if ( obj_tarot_manager.player_face_up[| 0].face_index == 0 and  obj_tarot_manager.player_face_up[| 1].face_index == 2){

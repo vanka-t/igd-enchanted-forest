@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//checking to show banner
+//checking to show banner and reposition player after exiting room
 rm_piano_entered = false
 rm_tarot_entered = false
+rm_final_entered = false
 
 //checking to unlock door
 piano_complete = false
