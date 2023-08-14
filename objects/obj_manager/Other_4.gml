@@ -3,18 +3,21 @@
 
 
 if room = rm_main and rm_piano_entered {
+	show_debug_message(":3")
 	//have the player starting position be where they left
-	obj_ply.x = obj_pianoDoor.x + 50
-	obj_ply.y = obj_pianoDoor.y 
+	obj_ply.x = obj_pianoDoor.x 
+	obj_ply.y = obj_pianoDoor.y  + 50
 	
 	//show banner that player completed challenge
 	instance_activate_object(obj_banner)
 	obj_banner.image_index = 1
 	
 	//deactivate everything
-	alarm[1] = room_speed *1
+	alarm[1] = room_speed *3
 	rm_piano_entered = false
+	
 } else {
+	show_debug_message(":<<<")
 	instance_deactivate_object(obj_banner)
 }
 /*
