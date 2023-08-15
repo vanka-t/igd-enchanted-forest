@@ -5,7 +5,6 @@
 
 //sound cake 
 //draw banner -> maybe in draw event of cake
-instance_destroy(other)
 global.have_cake = true
 instance_activate_object(obj_banner)
 	obj_banner.image_index = 2

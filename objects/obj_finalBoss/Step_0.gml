@@ -26,7 +26,7 @@ if room == rm_final {
 
 show_debug_message("final room entered: {0}", global.final_room_entered)
 
-if !obj_manager.have_cake {
+if !global.have_cake {
 	if global.final_room_entered == 1{
 		myText[0] = "What the hell do you want? Go away"
 	} else if global.final_room_entered > 1{

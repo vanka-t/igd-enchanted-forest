@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_iriq_prince",
-    "path": "sprites/spr_iriq_prince/spr_iriq_prince.yy",
+    "name": "spr_prince",
+    "path": "sprites/spr_prince/spr_prince.yy",
   },
   "spriteMaskId": null,
   "visible": true,
