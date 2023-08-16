@@ -10,6 +10,8 @@ if place_meeting(x,y,obj_ply) {
 		myTextBox.text = myText
 		myTextBox.creator = self
 		myTextBox.name = myName
+		cam_x = camera_get_view_x(view_camera[1])
+		myTextBox.x_pos = cam_x
 		}
 	}
 	

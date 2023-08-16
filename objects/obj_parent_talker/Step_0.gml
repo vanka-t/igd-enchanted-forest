@@ -11,7 +11,7 @@ if place_meeting(x,y,obj_ply) {
 		
 		myTextBox =  instance_create_layer(0 ,0,"text", obj_textBox)
 		cam_x = camera_get_view_x(view_camera[1])
-		cam_y  = camera_get_view_height(view_camera[1]) +150
+		cam_y  = camera_get_view_height(view_camera[1])// +150
 		myTextBox.x_pos = cam_x
 		myTextBox.y_pos = cam_y
 

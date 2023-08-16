@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_piano_house",
-  "bbox_bottom": 229,
+  "name": "spr_enemy_walls",
+  "bbox_bottom": 59,
   "bbox_left": 0,
-  "bbox_right": 139,
+  "bbox_right": 127,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3b5892e9-29d9-42dd-a73b-800e9d1a6f48",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9024de77-6cf3-402c-a447-18e00ae524a6",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 230,
+  "height": 60,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7f3da268-a81f-450b-b908-09a3bc722778","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"17b22ce2-bead-4114-8ccb-35761e1a5796","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_piano_house",
+    "name": "spr_enemy_walls",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3b5892e9-29d9-42dd-a73b-800e9d1a6f48","path":"sprites/spr_piano_house/spr_piano_house.yy",},},},"Disabled":false,"id":"6cdd38ab-8b68-49d2-b48f-4d5ebb1c02a0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9024de77-6cf3-402c-a447-18e00ae524a6","path":"sprites/spr_enemy_walls/spr_enemy_walls.yy",},},},"Disabled":false,"id":"8b2560b7-d6d6-49d0-ab8d-9f1ee311dc03","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 140,
+  "width": 128,
 }

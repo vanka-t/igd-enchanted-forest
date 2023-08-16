@@ -43,7 +43,8 @@ if tarot_complete && piano_complete{
 //	instance_destroy(obj_door)
 	global.gotKey = true
 }
-
+if global.gotKey {
+}
 
 if room = rm_final {
 	rm_final_entered =true

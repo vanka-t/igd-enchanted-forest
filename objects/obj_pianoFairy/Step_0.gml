@@ -29,6 +29,8 @@ if room == rm_piano {
 		myTextBox.text = myText2
 		myTextBox.creator = self
 		myTextBox.name = myName
+		
+		myTextBox.y_pos = room_height - 200
 
 		//}
 	}else if keyboard_check_pressed(vk_space){ 
@@ -39,6 +41,8 @@ if room == rm_piano {
 		myTextBox.text = myText
 		myTextBox.creator = self
 		myTextBox.name = myName
+		myTextBox.y_pos = room_height - 200
+		//myTextBox.boxWidth  = room_width
 		}
 	}
 	

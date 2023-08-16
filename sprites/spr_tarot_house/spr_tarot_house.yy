@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_tarot_house",
-  "bbox_bottom": 271,
-  "bbox_left": 20,
-  "bbox_right": 213,
-  "bbox_top": 36,
+  "bbox_bottom": 301,
+  "bbox_left": 4,
+  "bbox_right": 195,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3e9eb6c7-4cbc-4e62-aaf2-b1444068e55b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e6714b53-39f9-4b29-ae61-b526efd698ac",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 272,
+  "height": 304,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eb7ea023-da44-4077-8503-51d5e8812beb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a73f6cb3-9a6f-49ef-a54a-65f97d213676","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3e9eb6c7-4cbc-4e62-aaf2-b1444068e55b","path":"sprites/spr_tarot_house/spr_tarot_house.yy",},},},"Disabled":false,"id":"7be47291-ccac-4e6e-a8fd-781a4e771208","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e6714b53-39f9-4b29-ae61-b526efd698ac","path":"sprites/spr_tarot_house/spr_tarot_house.yy",},},},"Disabled":false,"id":"a62cf671-329e-4b9f-9ee1-04c7fa21b384","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 242,
+  "width": 198,
 }
