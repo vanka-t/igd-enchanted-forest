@@ -18,6 +18,7 @@
     {"name":"obj_banner","order":22,"path":"objects/obj_banner/obj_banner.yy",},
     {"name":"spr_cake","order":18,"path":"sprites/spr_cake/spr_cake.yy",},
     {"name":"obj_K","order":8,"path":"objects/obj_K/obj_K.yy",},
+    {"name":"spr_win","order":5,"path":"sprites/spr_win/spr_win.yy",},
     {"name":"snd_win","order":2,"path":"sounds/snd_win/snd_win.yy",},
     {"name":"spr_title","order":1,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_prince","order":2,"path":"sprites/spr_prince/spr_prince.yy",},
