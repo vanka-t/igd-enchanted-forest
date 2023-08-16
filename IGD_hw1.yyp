@@ -91,6 +91,7 @@
     {"id":{"name":"tl_garden","path":"tilesets/tl_garden/tl_garden.yy",},},
     {"id":{"name":"spr_message2","path":"sprites/spr_message2/spr_message2.yy",},},
     {"id":{"name":"obj_big_card","path":"objects/obj_big_card/obj_big_card.yy",},},
+    {"id":{"name":"obj_gardenGate","path":"objects/obj_gardenGate/obj_gardenGate.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
     {"id":{"name":"spr_scissors","path":"sprites/spr_scissors/spr_scissors.yy",},},
     {"id":{"name":"rm_tarot","path":"rooms/rm_tarot/rm_tarot.yy",},},
@@ -178,8 +179,8 @@
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_piano","path":"rooms/rm_piano/rm_piano.yy",},},
     {"roomId":{"name":"rm_tarot","path":"rooms/rm_tarot/rm_tarot.yy",},},
     {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},

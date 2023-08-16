@@ -44,6 +44,7 @@
     {"name":"tl_garden","order":2,"path":"tilesets/tl_garden/tl_garden.yy",},
     {"name":"spr_message2","order":9,"path":"sprites/spr_message2/spr_message2.yy",},
     {"name":"obj_big_card","order":1,"path":"objects/obj_big_card/obj_big_card.yy",},
+    {"name":"obj_gardenGate","order":4,"path":"objects/obj_gardenGate/obj_gardenGate.yy",},
     {"name":"spr_tree","order":5,"path":"sprites/spr_tree/spr_tree.yy",},
     {"name":"spr_scissors","order":4,"path":"sprites/spr_scissors/spr_scissors.yy",},
     {"name":"rm_tarot","order":3,"path":"rooms/rm_tarot/rm_tarot.yy",},

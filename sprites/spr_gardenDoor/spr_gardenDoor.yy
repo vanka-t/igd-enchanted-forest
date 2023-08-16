@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_gardenDoor",
-  "bbox_bottom": 57,
+  "bbox_bottom": 115,
   "bbox_left": 0,
-  "bbox_right": 48,
+  "bbox_right": 97,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -18,7 +18,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 58,
+  "height": 116,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1d1da517-f166-4f1a-8cc6-4579471fa175","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -72,5 +72,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 49,
+  "width": 98,
 }

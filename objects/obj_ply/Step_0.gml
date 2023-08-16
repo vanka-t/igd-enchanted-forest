@@ -22,6 +22,7 @@ if vspd !=0 {
 	if !collision_point(x,y+vspd,obj_collision,true,true){
 		if !collision_point(x,y+vspd,obj_door,true,true){
 			
+			
 			y+= vspd;
 		
 		}	

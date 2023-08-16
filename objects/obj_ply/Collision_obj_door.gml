@@ -4,8 +4,14 @@
 
 
 if global.gotKey {
-	instance_destroy(other)
+	//instance_destroy(other)
 	audio_play_sound(snd_door,10,false)
+	if collision_point(x,y+vspd,obj_door,true,true){
+			
+			
+			y+= vspd;
+		
+		}	
 }
 
 

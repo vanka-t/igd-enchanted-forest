@@ -4,9 +4,9 @@ if room == rm_intro {
 	if audio_is_playing(snd_theme){
 		audio_pause_sound(snd_theme)
 	}
-	//if keyboard_check_pressed(vk_space){
-	//	room_goto(rm_main)
-	//}
+	if keyboard_check_pressed(vk_space){
+		room_goto(rm_main)
+	}
 }
 
 
