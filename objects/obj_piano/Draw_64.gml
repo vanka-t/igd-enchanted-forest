@@ -4,6 +4,7 @@
 
 //score bar
 //draw_sprite(spr_piano_scoreBar,0,500,200)
-draw_sprite_stretched(spr_piano_scoreBar,0, 800, 100, (count/count_max)*score_width, 20)
+draw_sprite(spr_scoreBarFrame, 0, score_x_pos, score_y_pos)
+draw_sprite_stretched(spr_scoreBar,0, score_x_pos, score_y_pos, (count/count_max)*score_width, 50)
 
 
