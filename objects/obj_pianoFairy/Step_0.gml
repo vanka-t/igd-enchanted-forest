@@ -32,7 +32,9 @@ if room == rm_piano {
 
 		//}
 	}else if keyboard_check_pressed(vk_space){ 
+			message_count += 1
 			if (myTextBox == noone ){
+			
 		myTextBox =  instance_create_layer(x,y,"text", obj_textBox)
 		myTextBox.text = myText
 		myTextBox.creator = self
@@ -46,4 +48,16 @@ if room == rm_piano {
 		myTextBox = noone
 	}
 	
+}
+
+
+if message_count > 5 {
+	instance_activate_layer("keyboard")
+	instance_activate_layer("piano_black")
+	
+	if !instance_exists(obj_piano){
+		instance_create_layer(room_width/2,room_height- 200, "Instances_2", obj_piano)
+		
+	}
+	message_count = 0
 }

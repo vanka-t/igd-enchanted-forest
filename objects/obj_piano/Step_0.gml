@@ -6,6 +6,7 @@
 
 
 image_speed = 0
+
 show_debug_message(count)
 if keyboard_check_pressed(ord("A")) {
 	audio_play_sound(snd_A,0,false);

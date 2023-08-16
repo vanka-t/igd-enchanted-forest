@@ -47,4 +47,8 @@ if room = rm_win {
 	}
 }
 
+if room = rm_piano {
+	instance_deactivate_layer("keyboard")
+	instance_deactivate_layer("piano_black")
+}
 

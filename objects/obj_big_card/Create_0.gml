@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 depth = -1000
-
+show_debug_message(obj_tarot_manager.player_face_up[| 0].face_index)
 
 //player winning
 if ( obj_tarot_manager.player_face_up[| 0].face_index == 1 and  obj_tarot_manager.player_face_up[| 1].face_index == 0){                                                               
@@ -12,6 +12,9 @@ if ( obj_tarot_manager.player_face_up[| 0].face_index == 1 and  obj_tarot_manage
 	sprite_index = spr_fool
 	obj_tarot_manager.player_score +=1
 } else if (obj_tarot_manager.player_face_up[| 0].face_index == 2 and  obj_tarot_manager.player_face_up[| 1].face_index == 1 ){
+	sprite_index = spr_lovers
+	obj_tarot_manager.player_score +=1
+} else{
 	sprite_index = spr_lovers
 	obj_tarot_manager.player_score +=1
 }

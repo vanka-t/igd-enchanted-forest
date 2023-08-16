@@ -8,7 +8,7 @@ convo_part  = 0
 myName = "The   Piano   Fairy"
 
 
-
+message_count = 0
 
 textbox = false
 
