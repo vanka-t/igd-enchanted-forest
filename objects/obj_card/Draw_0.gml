@@ -33,9 +33,10 @@ else
 }
 
 //set the card's face based on the face_index we assigned in the manager
-if(face_index == 0) sprite_index = spr_rock;
-if(face_index == 1) sprite_index = spr_paper;
+if(face_index == 0) sprite_index = spr_fool;
+if(face_index == 1) sprite_index = spr_sun;
 if(face_index == 2) sprite_index = spr_scissors;
+if(face_index == 3) sprite_index = spr_spades
 
 //if we're not face up, just show the back
 if(face_up == false) sprite_index = spr_back;

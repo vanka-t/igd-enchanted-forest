@@ -5,7 +5,8 @@ if room == rm_intro {
 		audio_pause_sound(snd_theme)
 	}
 	if keyboard_check_pressed(vk_space){
-		room_goto(rm_main)
+		fadeInfadeOut(rm_main,0.01)
+	
 	}
 }
 
@@ -28,6 +29,10 @@ if room = rm_piano {
 	rm_piano_entered = true
 	
 	audio_pause_sound(snd_theme)
+	audio_pause_sound(snd_theme)
+	if !audio_is_playing(snd_tarot_room){
+		audio_play_sound(snd_tarot_room, 10, true)
+	}
 } 
 
 if room = rm_tarot {
@@ -50,7 +55,7 @@ if room = rm_final {
 	rm_final_entered =true
 	audio_pause_sound(snd_theme)
 }
-/*
+
 if rm_piano_entered {
 	show_debug_message("piano entered!")
 } else {

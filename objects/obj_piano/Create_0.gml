@@ -9,8 +9,8 @@ count_max = 10
 score_width = 344
 score_height = 4
 
-score_x_pos = obj_A.x + sprite_get_width(spr_A)
-score_y_pos = 100
+score_x_pos = obj_A.x - sprite_get_width(spr_A)
+score_y_pos = 50
 
 
 flash = 0

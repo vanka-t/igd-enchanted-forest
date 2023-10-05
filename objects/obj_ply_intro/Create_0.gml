@@ -2,7 +2,7 @@
 // You can write your code in this editor
 depth = -1000
 
-spd = 10
+spd = 6
 left = 0
 right = 0
 up = 0

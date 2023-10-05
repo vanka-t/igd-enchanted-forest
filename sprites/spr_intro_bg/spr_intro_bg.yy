@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_intro_bg",
-  "bbox_bottom": 749,
+  "bbox_bottom": 699,
   "bbox_left": 0,
-  "bbox_right": 1499,
+  "bbox_right": 1599,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c0fe15e-5dd7-43c7-9932-c7de04be1f50",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf6a61e5-938e-4c09-9953-ec4b67d52500",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 750,
+  "height": 700,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4da37904-e0bb-4888-9e5e-2387987df499","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"92f9c91e-5dc7-434c-9866-f5c8f5372c24","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2c0fe15e-5dd7-43c7-9932-c7de04be1f50","path":"sprites/spr_intro_bg/spr_intro_bg.yy",},},},"Disabled":false,"id":"a41aa9a7-e01a-4517-9b50-11c76340d4c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bf6a61e5-938e-4c09-9953-ec4b67d52500","path":"sprites/spr_intro_bg/spr_intro_bg.yy",},},},"Disabled":false,"id":"4f87efa1-de50-428d-9691-bbfa524c669d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1500,
+  "width": 1600,
 }

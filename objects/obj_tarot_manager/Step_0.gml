@@ -101,7 +101,7 @@ switch(state)
 			//{
 				//obj_big_card.sprite_index = spr_sun
 				//comp_score +=1 
-		//	} else{
+			} else{
 				 //good ending
 				//obj_big_card.sprite_index = spr_draw
 			//	player_score +=1 
@@ -110,13 +110,13 @@ switch(state)
 				instance_create_layer(room_width/2, room_height/2, "results", obj_big_card)
 				
 				//if the cards do not match, flip them back over
-				//player_face_up[| 0].face_up = false;
-				//player_face_up[| 1].face_up = false;
+				player_face_up[| 0].face_up = false;
+				player_face_up[| 1].face_up = false;
 				
 				
 				
 				//return to the match state
-				//state = state_match;
+				state = state_match;
 		
 		
 			if (wait_timer >= 200){

@@ -5,8 +5,8 @@
 
 
 
-show_debug_message("Convo part: {0}", convo_part)
-show_debug_message("My text box: ",textbox)
+//show_debug_message("Convo part: {0}", convo_part)
+//show_debug_message("My text box: ",textbox)
 //if convo_part == 0{
 myText[0] = "Hi there, kind soul."
 myText[1] = "If you would like to leave our forest, first you must show me you have what it takes"
@@ -21,7 +21,7 @@ myText[3] = "use keys A  S  D   F   G   H   I   J   K"
 //}
 
 // Inherit the parent event
-if room == rm_piano {
+if room == rm_piano_new {
 	if convo_part >0 { // automatically start talking once piano is finished playing
 		//	if (myTextBox == noone ){
 		
@@ -60,7 +60,7 @@ if message_count > 5 {
 	instance_activate_layer("piano_black")
 	
 	if !instance_exists(obj_piano){
-		instance_create_layer(room_width/2,room_height- 200, "Instances_2", obj_piano)
+		instance_create_layer(room_width/2,room_height- 200, "Instances", obj_piano)
 		
 	}
 	message_count = 0
