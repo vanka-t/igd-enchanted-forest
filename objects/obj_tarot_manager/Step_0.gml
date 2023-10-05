@@ -77,7 +77,7 @@ switch(state)
 	case state_compare:
 		show_debug_message(state);
 		wait_timer++;
-		
+		show_debug_message("Wait timer: {0}", wait_timer)
 		
 		//wait 30 frames to let the player see their selection
 		if(wait_timer >= 120)
@@ -101,7 +101,7 @@ switch(state)
 			//{
 				//obj_big_card.sprite_index = spr_sun
 				//comp_score +=1 
-			} else{
+		} else{
 				 //good ending
 				//obj_big_card.sprite_index = spr_draw
 			//	player_score +=1 
@@ -117,7 +117,7 @@ switch(state)
 				
 				//return to the match state
 				state = state_match;
-		
+		}
 		
 			if (wait_timer >= 200){
 					//instance_deactivate_layer("results")
@@ -132,7 +132,7 @@ switch(state)
 				//}
 			//reset the wait timer
 			
-		}
+		
 		break;
 	case state_clean:
 		show_debug_message(state);
