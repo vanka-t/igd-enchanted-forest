@@ -13,6 +13,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_rocks","order":3,"path":"sprites/spr_rocks/spr_rocks.yy",},
+    {"name":"spr_interact_introo","order":3,"path":"sprites/spr_interact_introo/spr_interact_introo.yy",},
     {"name":"spr_message1","order":7,"path":"sprites/spr_message1/spr_message1.yy",},
     {"name":"spr_results","order":9,"path":"sprites/spr_results/spr_results.yy",},
     {"name":"obj_banner","order":22,"path":"objects/obj_banner/obj_banner.yy",},
@@ -86,7 +87,7 @@
     {"name":"spr_textBox","order":10,"path":"sprites/spr_textBox/spr_textBox.yy",},
     {"name":"spr_intro_bg_grass","order":6,"path":"sprites/spr_intro_bg_grass/spr_intro_bg_grass.yy",},
     {"name":"snd_F","order":3,"path":"sounds/snd_F/snd_F.yy",},
-    {"name":"spr_interact_intro","order":1,"path":"sprites/spr_interact_intro/spr_interact_intro.yy",},
+    {"name":"obj_flower_talker","order":2,"path":"objects/obj_flower_talker/obj_flower_talker.yy",},
     {"name":"obj_ply","order":1,"path":"objects/obj_ply/obj_ply.yy",},
     {"name":"spr_J","order":6,"path":"sprites/spr_J/spr_J.yy",},
     {"name":"spr_door","order":4,"path":"sprites/spr_door/spr_door.yy",},

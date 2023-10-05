@@ -4,10 +4,10 @@ if room == rm_intro {
 	if audio_is_playing(snd_theme){
 		audio_pause_sound(snd_theme)
 	}
-	if keyboard_check_pressed(vk_space){
-		fadeInfadeOut(rm_main,0.01)
+//	if keyboard_check_pressed(vk_space){
+	//	fadeInfadeOut(rm_main,0.01)
 	
-	}
+//}
 }
 
 

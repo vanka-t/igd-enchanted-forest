@@ -3,7 +3,7 @@
 
 
 
-if place_meeting(x,y,obj_ply) {
+if place_meeting(x,y,obj_ply)  {
 	
 	if keyboard_check_pressed(vk_space){
 			if (myTextBox == noone ){

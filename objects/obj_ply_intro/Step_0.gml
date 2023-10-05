@@ -28,14 +28,6 @@ if vspd !=0 {
 
 
 
-//ENTER SEQUENCE
-if collision_point(x+hspd,y,obj_interact_intro,true,true) { 
-	if keyboard_check_pressed(vk_space){
-	//go to main?
-		
-	}
-	
-}
 
 	
 if keyboard_check_pressed(vk_left){
@@ -57,9 +49,6 @@ if keyboard_check_released(vk_right){
 	R_hold = false
 }
 
-if keyboard_check_pressed(vk_space){
-//interact
-}
 
 if R_hold {
 
@@ -85,13 +74,14 @@ if fall {
 	y+=5;
 	//global.x = x
 	if y >= 1300 {
-		x = obj_manager.start_x_pos
+		//x = obj_manager.start_x_pos
 		//landing sound
-		sprite_index = spr_ply_down //landing sprite gif
+		//image_yscale = -1
+		//sprite_index = spr_ply_down //landing sprite gif
 		///if image_index == x {
 		//sprite_index = spr_ply_idle
 		//}
-		room_goto(rm_main)
+		fadeInfadeOut(rm_main,0.01)
 		
 	}
 }
