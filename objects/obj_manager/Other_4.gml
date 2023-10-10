@@ -7,6 +7,9 @@ if room = rm_main and rm_piano_entered {
 	//have the player starting position be where they left
 	obj_ply.x = obj_pianoDoor.x 
 	obj_ply.y = obj_pianoDoor.y  + 150
+	if audio_is_playing(snd_tarot_room){
+		audio_pause_sound(snd_tarot_room)
+	}
 	
 	//show banner that player completed challenge
 	instance_activate_object(obj_banner)

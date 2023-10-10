@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9024de77-6cf3-402c-a447-18e00ae524a6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"839ce9bd-c245-4410-9f91-3094c5cb73d4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 60,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"17b22ce2-bead-4114-8ccb-35761e1a5796","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"853689a6-bd30-4046-bd5d-b49c3237caf8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "background",
-    "path": "folders/Sprites/background.yy",
+    "name": "main room tiles",
+    "path": "folders/Sprites/main room tiles.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9024de77-6cf3-402c-a447-18e00ae524a6","path":"sprites/spr_enemy_walls/spr_enemy_walls.yy",},},},"Disabled":false,"id":"8b2560b7-d6d6-49d0-ab8d-9f1ee311dc03","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"839ce9bd-c245-4410-9f91-3094c5cb73d4","path":"sprites/spr_enemy_walls/spr_enemy_walls.yy",},},},"Disabled":false,"id":"213a96eb-6e43-419f-a78e-c3836472b9ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

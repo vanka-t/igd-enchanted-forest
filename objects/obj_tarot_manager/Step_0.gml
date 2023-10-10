@@ -5,6 +5,7 @@ if audio_is_playing(snd_theme){
 	audio_pause_sound(snd_theme)
 }
 
+image_speed =1
 //if !audio_is_playing(snd_bg){
 //	audio_play_sound(snd_bg,0,false)
 //}
@@ -90,7 +91,7 @@ switch(state)
 			//	(player_face_up[| 0].face_index == 2 and  player_face_up[| 1].face_index == 1) )
 			//	{
 				//go to the clean up state
-				player_score +=1 //good ending
+				//player_score +=1 //good ending
 				
 				
 			//} 
@@ -108,7 +109,7 @@ switch(state)
 			//	comp_score +=1 
 			//}
 				instance_create_layer(room_width/2, room_height/2, "results", obj_big_card)
-				
+				obj_big_card.image_speed =1
 				//if the cards do not match, flip them back over
 				player_face_up[| 0].face_up = false;
 				player_face_up[| 1].face_up = false;

@@ -3,7 +3,7 @@
 
 
 depth = -1000
-image_speed = 0
+image_speed = 1
 if (obj_tarot_manager.player_score > obj_tarot_manager.comp_score) {
 	image_index = 0 //win
 	obj_tarot_fairy.good_reading = true

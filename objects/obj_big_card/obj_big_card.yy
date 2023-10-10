@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_fool_ace",
+    "path": "sprites/spr_fool_ace/spr_fool_ace.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

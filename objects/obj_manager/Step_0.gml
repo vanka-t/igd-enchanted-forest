@@ -10,6 +10,11 @@ if room == rm_intro {
 //}
 }
 
+if keyboard_check_pressed(ord("m")) 
+{
+	room_goto(rm_tarot)
+}
+
 
 if room = rm_main {
 
@@ -25,7 +30,7 @@ if room = rm_main {
 
 
 
-if room = rm_piano {
+if room = rm_piano_new {
 	rm_piano_entered = true
 	
 	audio_pause_sound(snd_theme)
@@ -56,6 +61,7 @@ if room = rm_final {
 	audio_pause_sound(snd_theme)
 }
 
+/*
 if rm_piano_entered {
 	show_debug_message("piano entered!")
 } else {
