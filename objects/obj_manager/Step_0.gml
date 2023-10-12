@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 if room == rm_intro {
+	if !audio_is_playing(snd_intro){
+		audio_play_sound(snd_intro, 10, true)
+	}
 	if audio_is_playing(snd_theme){
 		audio_pause_sound(snd_theme)
 	}
@@ -17,7 +20,11 @@ if keyboard_check_pressed(ord("m"))
 
 
 if room = rm_main {
-
+if audio_is_playing(snd_intro){
+		audio_pause_sound(snd_intro)
+	}
+	
+	
 	if !audio_is_playing(snd_theme){
 		audio_play_sound(snd_theme, 10, true)
 	} else if audio_is_paused(snd_theme){
