@@ -19,7 +19,7 @@
     "name": "spr_enemy_walls",
     "path": "sprites/spr_enemy_walls/spr_enemy_walls.yy",
   },
-  "spriteNoExport": true,
+  "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",

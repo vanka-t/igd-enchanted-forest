@@ -19,7 +19,7 @@
     "name": "spr_enemy_gate",
     "path": "sprites/spr_enemy_gate/spr_enemy_gate.yy",
   },
-  "spriteNoExport": true,
+  "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
