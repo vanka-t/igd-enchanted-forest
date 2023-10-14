@@ -30,21 +30,21 @@ if vspd !=0 {
 
 
 	
-if keyboard_check_pressed(vk_left){
+if keyboard_check_pressed(ord("A")){
 	sprite_index = spr_ply_intro
 	image_xscale = -1
 	L_hold = true
 }
-if keyboard_check_released(vk_left){
+if keyboard_check_released(ord("A")){
 	L_released = true
 	L_hold = false
 }
-if keyboard_check_pressed(vk_right){
+if keyboard_check_pressed(ord("D")){
 	sprite_index = spr_ply_intro
 	image_xscale = 1
 	R_hold = true
 }
-if keyboard_check_released(vk_right){
+if keyboard_check_released(ord("D")){
 	R_released = true
 	R_hold = false
 }

@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 depth = -1000
+image_index = 0
 image_speed = 1
-show_debug_message("FACE INDEX: {0}" , obj_tarot_manager.player_face_up[| 0].face_index)
+//show_debug_message("FACE INDEX: {0}" , obj_tarot_manager.player_face_up[| 0].face_index)
 //randomize();
 
 

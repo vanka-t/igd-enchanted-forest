@@ -196,9 +196,9 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
+    {"roomId":{"name":"rm_tarot","path":"rooms/rm_tarot/rm_tarot.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_piano","path":"rooms/rm_piano/rm_piano.yy",},},
-    {"roomId":{"name":"rm_tarot","path":"rooms/rm_tarot/rm_tarot.yy",},},
     {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_piano_new","path":"rooms/rm_piano_new/rm_piano_new.yy",},},

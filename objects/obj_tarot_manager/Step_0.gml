@@ -120,7 +120,7 @@ switch(state)
 				state = state_match;
 		}
 		
-			if (wait_timer >= 200){
+			if (wait_timer >= 300){
 					//instance_deactivate_layer("results")
 					instance_destroy(obj_big_card)
 					//clear the selected card list
