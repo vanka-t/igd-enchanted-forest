@@ -11,9 +11,12 @@ vspd = ((down-up)*spd);
 				audio_play_sound(snd_walk,0 , false)
 			}
 	if !collision_point(x+hspd,y,obj_collision,true,true){
+		if !collision_point(x,y,obj_collision,true,true){
+		
 		if !collision_point(x+hspd,y,obj_door,true,true){
 			x+= hspd;
 			
+		}
 		}
 	}
 }
@@ -27,10 +30,12 @@ if vspd !=0 {
 				audio_play_sound(snd_walk,0 , false)
 			}
 	if !collision_point(x,y+vspd,obj_collision,true,true){
-		if !collision_point(x,y+vspd,obj_door,true,true){
+		if !collision_point(x,y,obj_collision,true,true){
+			if !collision_point(x,y+vspd,obj_door,true,true){
 			
 			
 			y+= vspd;
+			}
 			
 		
 		}	

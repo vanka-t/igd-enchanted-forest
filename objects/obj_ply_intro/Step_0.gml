@@ -9,6 +9,21 @@ vspd = ((down-up)*spd);
 	//if !audio_is_playing(snd_intro){
 	//	audio_play_sound(snd_intro, 10, true)
 	//}
+
+
+	//interacting w/ flower
+	if !collision_point(x+hspd,y,obj_interact_intro,true,true) {
+	instance_deactivate_object(obj_banner)
+	
+	} else {
+		instance_activate_object(obj_banner)
+	obj_banner.image_index = 0
+	}
+	
+	
+	
+	
+	
 	
 if hspd !=0 { 
 	if !collision_point(x+hspd,y,obj_collision,true,true){
@@ -16,7 +31,8 @@ if hspd !=0 {
 	}
 }
 
-
+		
+		
 //if moving 
 if vspd !=0 {
 	if !collision_point(x,y+vspd,obj_collision,true,true){

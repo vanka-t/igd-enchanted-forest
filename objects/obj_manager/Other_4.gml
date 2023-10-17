@@ -13,7 +13,7 @@ if room = rm_main and rm_piano_entered {
 	
 	//show banner that player completed challenge
 	instance_activate_object(obj_banner)
-	obj_banner.image_index = 0
+	obj_banner.image_index = 2
 	
 	//deactivate everything
 	alarm[1] = room_speed *3
@@ -40,13 +40,22 @@ if room = rm_main and rm_tarot_entered {
 
 if room = rm_main and rm_final_entered {
 	obj_ply.x = obj_finalDoor.x 
-	obj_ply.y = obj_finalDoor.y  + 150
+	obj_ply.y = obj_finalDoor.y  + 250
 	rm_final_entered = false
+	if audio_is_playing(snd_final_room){
+	audio_pause_sound(snd_final_room)
+	}
 }
+
+
 
 if room = rm_win {
 	if !audio_is_playing(snd_win){
 	audio_play_sound(snd_win,10,false)
+	}
+} else if room = rm_final {
+	if !audio_is_playing(snd_final_room){
+	audio_play_sound(snd_final_room,10,false)
 	}
 }
 

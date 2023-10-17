@@ -7,7 +7,7 @@
 //draw banner -> maybe in draw event of cake
 global.have_cake = true
 instance_activate_object(obj_banner)
-	obj_banner.image_index = 2
+	obj_banner.image_index = 3
 	
 	//deactivate everything
 	alarm[1] = room_speed *3

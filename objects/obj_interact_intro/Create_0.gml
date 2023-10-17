@@ -5,6 +5,6 @@ event_inherited()
 
 depth = -999
 
-myName = "PRESS A TO COLLECT"
+//myName = "PRESS A TO COLLECT"
 
 //myText[0] = "PRESS A TO COLLECT"
