@@ -7,10 +7,6 @@ if room == rm_intro {
 	if audio_is_playing(snd_theme){
 		audio_pause_sound(snd_theme)
 	}
-//	if keyboard_check_pressed(vk_space){
-	//	fadeInfadeOut(rm_main,0.01)
-	
-//}
 }
 
 if keyboard_check_pressed(ord("m")) 
@@ -39,11 +35,11 @@ if audio_is_playing(snd_intro){
 
 if room = rm_piano_new {
 	rm_piano_entered = true
-	
+	instance_deactivate_layer("piano_black")
+
 	audio_pause_sound(snd_theme)
-	audio_pause_sound(snd_theme)
-	if !audio_is_playing(snd_tarot_room){
-		audio_play_sound(snd_tarot_room, 10, true)
+	if !audio_is_playing(snd_piano_room){
+		audio_play_sound(snd_piano_room, 10, true)
 	}
 } 
 

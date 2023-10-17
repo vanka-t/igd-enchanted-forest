@@ -6,7 +6,7 @@ page = 0
 x_pos = 0
 y_pos = y
 
-
+textColor = make_colour_rgb(255,32,48)
 
 xBuffer = 10
 yBuffer = 10

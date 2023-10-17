@@ -55,7 +55,7 @@ if room == rm_piano_new {
 }
 
 
-if message_count > 5 {
+if message_count > 4 {
 	instance_activate_layer("keyboard")
 	instance_activate_layer("piano_black")
 	

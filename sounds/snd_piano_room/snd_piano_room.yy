@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 469.68164,
   "parent": {
     "name": "themes",
     "path": "folders/Sounds/themes.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_piano_room",
+  "soundFile": "snd_piano_room.mp3",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.51,
 }

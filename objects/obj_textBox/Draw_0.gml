@@ -12,7 +12,7 @@ if charCount < string_length(text[page]) {
 textPart = string_copy(text[page], 1, charCount)
 
 //name
-draw_set_colour(c_blue)
+draw_set_colour(textColor)
 draw_set_halign(fa_center)
 draw_text(x_pos + (boxWidth/2),y_pos+ yBuffer,name)
 //dialogue

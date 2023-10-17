@@ -5,12 +5,11 @@
 
 event_inherited()
 convo_part  = 0
-myName = "The   Piano   Fairy"
+myName = "The   Nymph"
 
 
 message_count = 0
 
 textbox = false
-
 
 
